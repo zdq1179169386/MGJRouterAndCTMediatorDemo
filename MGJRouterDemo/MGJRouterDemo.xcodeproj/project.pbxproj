@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BA53C4592F36BE6CDEC7F2 /* libPods-MGJRouterDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE46748D4DA1AE5A353167AF /* libPods-MGJRouterDemoUITests.a */; };
+		2EAE0631215B6BAF00AD9639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE0630215B6BAF00AD9639 /* AppDelegate.m */; };
+		2EAE0637215B6BAF00AD9639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE0635215B6BAF00AD9639 /* Main.storyboard */; };
+		2EAE0639215B6BB000AD9639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE0638215B6BB000AD9639 /* Assets.xcassets */; };
+		2EAE063C215B6BB000AD9639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE063A215B6BB000AD9639 /* LaunchScreen.storyboard */; };
+		2EAE063F215B6BB000AD9639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE063E215B6BB000AD9639 /* main.m */; };
+		2EAE0649215B6BB000AD9639 /* MGJRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE0648215B6BB000AD9639 /* MGJRouterDemoTests.m */; };
+		2EAE0654215B6BB000AD9639 /* MGJRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE0653215B6BB000AD9639 /* MGJRouterDemoUITests.m */; };
+		2EAE0663215B6C7400AD9639 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE0662215B6C7400AD9639 /* ProductDetailViewController.m */; };
+		2EAE0666215B6C9400AD9639 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE0665215B6C9400AD9639 /* CategoryViewController.m */; };
+		2EF46D34215DD0E300A9B5E0 /* ZDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46D33215DD0E300A9B5E0 /* ZDTabBarViewController.m */; };
+		2EF46D37215DD1C000A9B5E0 /* ZDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46D36215DD1C000A9B5E0 /* ZDHomeViewController.m */; };
+		2EF46D9D215F18DE00A9B5E0 /* GlobalModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46D9C215F18DE00A9B5E0 /* GlobalModuleRouter.m */; };
+		2EF46DA0215F21C500A9B5E0 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46D9F215F21C500A9B5E0 /* NextViewController.m */; };
+		655A2E01B6CBF60B4F2FE057 /* libPods-MGJRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFED4C1CEA1EF3B270E1DE7 /* libPods-MGJRouterDemo.a */; };
+		95ECF3369F1035C588C7E780 /* libPods-MGJRouterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC6F60AF4C3FCE690E856AB /* libPods-MGJRouterDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EAE0645215B6BB000AD9639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAE0624215B6BAF00AD9639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EAE062B215B6BAF00AD9639;
+			remoteInfo = MGJRouterDemo;
+		};
+		2EAE0650215B6BB000AD9639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAE0624215B6BAF00AD9639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EAE062B215B6BAF00AD9639;
+			remoteInfo = MGJRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5954694540E906F5FF9FCA /* Pods-MGJRouterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemoTests/Pods-MGJRouterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		20B30953F9497227B4C2659A /* Pods-MGJRouterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemoUITests/Pods-MGJRouterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EAE062C215B6BAF00AD9639 /* MGJRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGJRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAE062F215B6BAF00AD9639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EAE0630215B6BAF00AD9639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EAE0636215B6BAF00AD9639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EAE0638215B6BB000AD9639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EAE063B215B6BB000AD9639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EAE063D215B6BB000AD9639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAE063E215B6BB000AD9639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EAE0644215B6BB000AD9639 /* MGJRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGJRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAE0648215B6BB000AD9639 /* MGJRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJRouterDemoTests.m; sourceTree = "<group>"; };
+		2EAE064A215B6BB000AD9639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAE064F215B6BB000AD9639 /* MGJRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGJRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAE0653215B6BB000AD9639 /* MGJRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJRouterDemoUITests.m; sourceTree = "<group>"; };
+		2EAE0655215B6BB000AD9639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAE0661215B6C7400AD9639 /* ProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		2EAE0662215B6C7400AD9639 /* ProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		2EAE0664215B6C9400AD9639 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		2EAE0665215B6C9400AD9639 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		2EF46D32215DD0E300A9B5E0 /* ZDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDTabBarViewController.h; sourceTree = "<group>"; };
+		2EF46D33215DD0E300A9B5E0 /* ZDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTabBarViewController.m; sourceTree = "<group>"; };
+		2EF46D35215DD1C000A9B5E0 /* ZDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDHomeViewController.h; sourceTree = "<group>"; };
+		2EF46D36215DD1C000A9B5E0 /* ZDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDHomeViewController.m; sourceTree = "<group>"; };
+		2EF46D9B215F18DE00A9B5E0 /* GlobalModuleRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalModuleRouter.h; sourceTree = "<group>"; };
+		2EF46D9C215F18DE00A9B5E0 /* GlobalModuleRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalModuleRouter.m; sourceTree = "<group>"; };
+		2EF46D9E215F21C500A9B5E0 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2EF46D9F215F21C500A9B5E0 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		8BFED4C1CEA1EF3B270E1DE7 /* libPods-MGJRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGJRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC6F60AF4C3FCE690E856AB /* libPods-MGJRouterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGJRouterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC635FC54225F0FBC8FAFA01 /* Pods-MGJRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemo/Pods-MGJRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BBB3C0322A0DAEA05E617173 /* Pods-MGJRouterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemoUITests/Pods-MGJRouterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE46748D4DA1AE5A353167AF /* libPods-MGJRouterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGJRouterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E07C7194AB3F916F4D0248 /* Pods-MGJRouterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemoTests/Pods-MGJRouterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF486A9F92C3A3E09F081C8F /* Pods-MGJRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGJRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGJRouterDemo/Pods-MGJRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EAE0629215B6BAF00AD9639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A2E01B6CBF60B4F2FE057 /* libPods-MGJRouterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE0641215B6BB000AD9639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ECF3369F1035C588C7E780 /* libPods-MGJRouterDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE064C215B6BB000AD9639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BA53C4592F36BE6CDEC7F2 /* libPods-MGJRouterDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EAE0623215B6BAF00AD9639 = {
+			isa = PBXGroup;
+			children = (
+				2EAE062E215B6BAF00AD9639 /* MGJRouterDemo */,
+				2EAE0647215B6BB000AD9639 /* MGJRouterDemoTests */,
+				2EAE0652215B6BB000AD9639 /* MGJRouterDemoUITests */,
+				2EAE062D215B6BAF00AD9639 /* Products */,
+				7149056221907E7812F3E5A7 /* Pods */,
+				EA606BBDD7F719755923F491 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EAE062D215B6BAF00AD9639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE062C215B6BAF00AD9639 /* MGJRouterDemo.app */,
+				2EAE0644215B6BB000AD9639 /* MGJRouterDemoTests.xctest */,
+				2EAE064F215B6BB000AD9639 /* MGJRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EAE062E215B6BAF00AD9639 /* MGJRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE062F215B6BAF00AD9639 /* AppDelegate.h */,
+				2EAE0630215B6BAF00AD9639 /* AppDelegate.m */,
+				2EAE0638215B6BB000AD9639 /* Assets.xcassets */,
+				2EAE0664215B6C9400AD9639 /* CategoryViewController.h */,
+				2EAE0665215B6C9400AD9639 /* CategoryViewController.m */,
+				2EF46D9B215F18DE00A9B5E0 /* GlobalModuleRouter.h */,
+				2EF46D9C215F18DE00A9B5E0 /* GlobalModuleRouter.m */,
+				2EAE063D215B6BB000AD9639 /* Info.plist */,
+				2EAE063A215B6BB000AD9639 /* LaunchScreen.storyboard */,
+				2EAE063E215B6BB000AD9639 /* main.m */,
+				2EAE0635215B6BAF00AD9639 /* Main.storyboard */,
+				2EF46D9E215F21C500A9B5E0 /* NextViewController.h */,
+				2EF46D9F215F21C500A9B5E0 /* NextViewController.m */,
+				2EAE0661215B6C7400AD9639 /* ProductDetailViewController.h */,
+				2EAE0662215B6C7400AD9639 /* ProductDetailViewController.m */,
+				2EF46D35215DD1C000A9B5E0 /* ZDHomeViewController.h */,
+				2EF46D36215DD1C000A9B5E0 /* ZDHomeViewController.m */,
+				2EF46D32215DD0E300A9B5E0 /* ZDTabBarViewController.h */,
+				2EF46D33215DD0E300A9B5E0 /* ZDTabBarViewController.m */,
+			);
+			path = MGJRouterDemo;
+			sourceTree = "<group>";
+		};
+		2EAE0647215B6BB000AD9639 /* MGJRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE0648215B6BB000AD9639 /* MGJRouterDemoTests.m */,
+				2EAE064A215B6BB000AD9639 /* Info.plist */,
+			);
+			path = MGJRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		2EAE0652215B6BB000AD9639 /* MGJRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE0653215B6BB000AD9639 /* MGJRouterDemoUITests.m */,
+				2EAE0655215B6BB000AD9639 /* Info.plist */,
+			);
+			path = MGJRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		7149056221907E7812F3E5A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF486A9F92C3A3E09F081C8F /* Pods-MGJRouterDemo.debug.xcconfig */,
+				AC635FC54225F0FBC8FAFA01 /* Pods-MGJRouterDemo.release.xcconfig */,
+				F4E07C7194AB3F916F4D0248 /* Pods-MGJRouterDemoTests.debug.xcconfig */,
+				1E5954694540E906F5FF9FCA /* Pods-MGJRouterDemoTests.release.xcconfig */,
+				BBB3C0322A0DAEA05E617173 /* Pods-MGJRouterDemoUITests.debug.xcconfig */,
+				20B30953F9497227B4C2659A /* Pods-MGJRouterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA606BBDD7F719755923F491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFED4C1CEA1EF3B270E1DE7 /* libPods-MGJRouterDemo.a */,
+				9FC6F60AF4C3FCE690E856AB /* libPods-MGJRouterDemoTests.a */,
+				DE46748D4DA1AE5A353167AF /* libPods-MGJRouterDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EAE062B215B6BAF00AD9639 /* MGJRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAE0658215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemo" */;
+			buildPhases = (
+				220973018B211A5878622B69 /* [CP] Check Pods Manifest.lock */,
+				2EAE0628215B6BAF00AD9639 /* Sources */,
+				2EAE0629215B6BAF00AD9639 /* Frameworks */,
+				2EAE062A215B6BAF00AD9639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouterDemo;
+			productName = MGJRouterDemo;
+			productReference = 2EAE062C215B6BAF00AD9639 /* MGJRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EAE0643215B6BB000AD9639 /* MGJRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAE065B215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemoTests" */;
+			buildPhases = (
+				2E0E4E751B4362866722485E /* [CP] Check Pods Manifest.lock */,
+				2EAE0640215B6BB000AD9639 /* Sources */,
+				2EAE0641215B6BB000AD9639 /* Frameworks */,
+				2EAE0642215B6BB000AD9639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EAE0646215B6BB000AD9639 /* PBXTargetDependency */,
+			);
+			name = MGJRouterDemoTests;
+			productName = MGJRouterDemoTests;
+			productReference = 2EAE0644215B6BB000AD9639 /* MGJRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EAE064E215B6BB000AD9639 /* MGJRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAE065E215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemoUITests" */;
+			buildPhases = (
+				8691A39E3170CD4AE1DDF72E /* [CP] Check Pods Manifest.lock */,
+				2EAE064B215B6BB000AD9639 /* Sources */,
+				2EAE064C215B6BB000AD9639 /* Frameworks */,
+				2EAE064D215B6BB000AD9639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EAE0651215B6BB000AD9639 /* PBXTargetDependency */,
+			);
+			name = MGJRouterDemoUITests;
+			productName = MGJRouterDemoUITests;
+			productReference = 2EAE064F215B6BB000AD9639 /* MGJRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EAE0624215B6BAF00AD9639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zdq;
+				TargetAttributes = {
+					2EAE062B215B6BAF00AD9639 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2EAE0643215B6BB000AD9639 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2EAE062B215B6BAF00AD9639;
+					};
+					2EAE064E215B6BB000AD9639 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2EAE062B215B6BAF00AD9639;
+					};
+				};
+			};
+			buildConfigurationList = 2EAE0627215B6BAF00AD9639 /* Build configuration list for PBXProject "MGJRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EAE0623215B6BAF00AD9639;
+			productRefGroup = 2EAE062D215B6BAF00AD9639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EAE062B215B6BAF00AD9639 /* MGJRouterDemo */,
+				2EAE0643215B6BB000AD9639 /* MGJRouterDemoTests */,
+				2EAE064E215B6BB000AD9639 /* MGJRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EAE062A215B6BAF00AD9639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAE063C215B6BB000AD9639 /* LaunchScreen.storyboard in Resources */,
+				2EAE0639215B6BB000AD9639 /* Assets.xcassets in Resources */,
+				2EAE0637215B6BAF00AD9639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE0642215B6BB000AD9639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE064D215B6BB000AD9639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220973018B211A5878622B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGJRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E0E4E751B4362866722485E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGJRouterDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8691A39E3170CD4AE1DDF72E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGJRouterDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EAE0628215B6BAF00AD9639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF46D34215DD0E300A9B5E0 /* ZDTabBarViewController.m in Sources */,
+				2EF46DA0215F21C500A9B5E0 /* NextViewController.m in Sources */,
+				2EAE0666215B6C9400AD9639 /* CategoryViewController.m in Sources */,
+				2EAE063F215B6BB000AD9639 /* main.m in Sources */,
+				2EAE0631215B6BAF00AD9639 /* AppDelegate.m in Sources */,
+				2EAE0663215B6C7400AD9639 /* ProductDetailViewController.m in Sources */,
+				2EF46D37215DD1C000A9B5E0 /* ZDHomeViewController.m in Sources */,
+				2EF46D9D215F18DE00A9B5E0 /* GlobalModuleRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE0640215B6BB000AD9639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAE0649215B6BB000AD9639 /* MGJRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EAE064B215B6BB000AD9639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAE0654215B6BB000AD9639 /* MGJRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EAE0646215B6BB000AD9639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EAE062B215B6BAF00AD9639 /* MGJRouterDemo */;
+			targetProxy = 2EAE0645215B6BB000AD9639 /* PBXContainerItemProxy */;
+		};
+		2EAE0651215B6BB000AD9639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EAE062B215B6BAF00AD9639 /* MGJRouterDemo */;
+			targetProxy = 2EAE0650215B6BB000AD9639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EAE0635215B6BAF00AD9639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EAE0636215B6BAF00AD9639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EAE063A215B6BB000AD9639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EAE063B215B6BB000AD9639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EAE0656215B6BB000AD9639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EAE0657215B6BB000AD9639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EAE0659215B6BB000AD9639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF486A9F92C3A3E09F081C8F /* Pods-MGJRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EAE065A215B6BB000AD9639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC635FC54225F0FBC8FAFA01 /* Pods-MGJRouterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EAE065C215B6BB000AD9639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E07C7194AB3F916F4D0248 /* Pods-MGJRouterDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGJRouterDemo.app/MGJRouterDemo";
+			};
+			name = Debug;
+		};
+		2EAE065D215B6BB000AD9639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5954694540E906F5FF9FCA /* Pods-MGJRouterDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGJRouterDemo.app/MGJRouterDemo";
+			};
+			name = Release;
+		};
+		2EAE065F215B6BB000AD9639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB3C0322A0DAEA05E617173 /* Pods-MGJRouterDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGJRouterDemo;
+			};
+			name = Debug;
+		};
+		2EAE0660215B6BB000AD9639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B30953F9497227B4C2659A /* Pods-MGJRouterDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGJRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdq.MGJRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGJRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EAE0627215B6BAF00AD9639 /* Build configuration list for PBXProject "MGJRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAE0656215B6BB000AD9639 /* Debug */,
+				2EAE0657215B6BB000AD9639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAE0658215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAE0659215B6BB000AD9639 /* Debug */,
+				2EAE065A215B6BB000AD9639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAE065B215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAE065C215B6BB000AD9639 /* Debug */,
+				2EAE065D215B6BB000AD9639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAE065E215B6BB000AD9639 /* Build configuration list for PBXNativeTarget "MGJRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAE065F215B6BB000AD9639 /* Debug */,
+				2EAE0660215B6BB000AD9639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EAE0624215B6BAF00AD9639 /* Project object */;
+}
