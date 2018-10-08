@@ -19,9 +19,15 @@
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self.navigationController pushViewController: [[CTMediator sharedInstance] getNextVCWithTitle:@"next" block:^(NSString *name) {
-        NSLog(@"---%@",name);
-    }] animated:YES];
+//    [self.navigationController pushViewController: [[CTMediator sharedInstance] getNextVCWithTitle:@"next" block:^(NSString *name) {
+//        NSLog(@"---%@",name);
+//    }] animated:YES];
+    
+    NSString * urlStr = @"App://CategoryViewController/CategoryViewController";
+    NSURL * url = [NSURL URLWithString:urlStr];
+    UIViewController * vc = [[CTMediator sharedInstance] performActionWithUrl:url completion:NULL];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 

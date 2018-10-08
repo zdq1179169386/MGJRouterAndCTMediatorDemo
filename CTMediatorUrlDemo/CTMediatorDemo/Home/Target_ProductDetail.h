@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface Target_ProductDetailViewController : NSObject
+@interface Target_ProductDetail : NSObject
 
-- (UIViewController *)Action_ProductDetailViewController:(NSDictionary *)param;
+- (UIViewController *)Action_GetProductDetailVC:(NSDictionary *)param;
 @end

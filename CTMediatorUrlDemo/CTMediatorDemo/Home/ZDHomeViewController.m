@@ -25,19 +25,25 @@
     //teach: 教学中心，当模块之后，很难保证 多个模块里没有命名相同(url相同)的页面,所以加上一层判断，
     //productDetail : 商品详情页，如果其他的模块也有个商品详情页，所以前面加上模块名来区分。
     //App://home/productDetail?userId=xxx&studentId=xxx
-    NSString * urlStr = @"http://www.baid.com/ios/home/productDetail?userId=xxx&studentId=xxx";
+//    NSString * urlStr = @"http://www.baid.com/ios/home/ProductDetail?userId=xxx&studentId=xxx";
+    //这个短链
+    NSString * urlStr = @"App://ProductDetail/GetProductDetailVC?Id=111";
     NSURL * url = [NSURL URLWithString:[urlStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]]];
-    NSString * query = [url query];
-    NSString * path = [url path];
-    NSDictionary * queryDict = [self zh_dictionaryWithParamString:query];
-    if ([path hasPrefix:@"/"]) {
-        path = [path substringFromIndex:1];
-    }
-    NSArray * paths = [path componentsSeparatedByString:@"/"];
-    NSLog(@"queryDict = %@",queryDict);
-    NSLog(@"paths = %@",paths);
-
-//    [self.navigationController pushViewController: [[CTMediator sharedInstance] getDetailVCWithTitle:@"详情" name:@"传值"] animated:YES];
+//    NSString * query = [url query];
+//    NSString * path = [url path];
+//    NSDictionary * queryDict = [self zh_dictionaryWithParamString:query];
+//    if ([path hasPrefix:@"/"]) {
+//        path = [path substringFromIndex:1];
+//    }
+//    NSArray * paths = [path componentsSeparatedByString:@"/"];
+//    NSLog(@"queryDict = %@",queryDict);
+//    NSLog(@"paths = %@",paths);
+    //1，本地调用
+//   [self.navigationController pushViewController: [[CTMediator sharedInstance] getDetailVCWithTitle:@"详情" name:@"传值"] animated:YES];
+    //2，远程调用
+    UIViewController * vc = [[CTMediator sharedInstance] performActionWithUrl:url completion:NULL];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 - (NSDictionary *)zh_dictionaryWithParamString:(NSString *)zh_paramString
 {
@@ -50,7 +56,7 @@
         NSArray *str = [arr[i] componentsSeparatedByString:@"="];
         if (str.count == 2) {
             NSString *value = str[1];
-            value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            value = [value stringByRemovingPercentEncoding];
             [parameterDict setObject:value forKey:str[0]];
         }
         else if (str.count > 2){
@@ -61,7 +67,7 @@
             }
             
             NSString *value = [appending copy];
-            value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            value = [value stringByRemovingPercentEncoding];
             [parameterDict setObject:value forKey:str[0]];
         }
         else {

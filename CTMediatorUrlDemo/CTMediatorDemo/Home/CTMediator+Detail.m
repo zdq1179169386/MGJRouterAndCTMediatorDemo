@@ -14,6 +14,6 @@
     NSMutableDictionary * dict = @{}.mutableCopy;
     [dict setValue:name forKey:@"name"];
     [dict setValue:title forKey:@"title"];
-    return [self performTarget:@"ProductDetailViewController" action:@"ProductDetailViewController" params:dict shouldCacheTarget:NO];
+    return [self performTarget:@"ProductDetail" action:@"GetProductDetailVC" params:dict shouldCacheTarget:NO];
 }
 @end

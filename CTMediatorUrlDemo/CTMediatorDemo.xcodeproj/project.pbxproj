@@ -22,7 +22,7 @@
 		2EF46DFF215F49D400A9B5E0 /* CTMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46DFE215F49D400A9B5E0 /* CTMediator+Home.m */; };
 		2EF46E02215F4AF800A9B5E0 /* Target_ZDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E01215F4AF800A9B5E0 /* Target_ZDHomeViewController.m */; };
 		2EF46E05215F4C3100A9B5E0 /* CTMediator+ZDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E04215F4C3100A9B5E0 /* CTMediator+ZDCategory.m */; };
-		2EF46E0B215F4FAA00A9B5E0 /* Target_ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetailViewController.m */; };
+		2EF46E0B215F4FAA00A9B5E0 /* Target_ProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetail.m */; };
 		2EF46E0E215F4FBD00A9B5E0 /* CTMediator+Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E0D215F4FBD00A9B5E0 /* CTMediator+Detail.m */; };
 		2EF46E11215F515000A9B5E0 /* CTMediator+Next.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E10215F515000A9B5E0 /* CTMediator+Next.m */; };
 		2EF46E14215F516900A9B5E0 /* Target_CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF46E13215F516900A9B5E0 /* Target_CategoryViewController.m */; };
@@ -79,8 +79,8 @@
 		2EF46E01215F4AF800A9B5E0 /* Target_ZDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ZDHomeViewController.m; sourceTree = "<group>"; };
 		2EF46E03215F4C3100A9B5E0 /* CTMediator+ZDCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ZDCategory.h"; sourceTree = "<group>"; };
 		2EF46E04215F4C3100A9B5E0 /* CTMediator+ZDCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ZDCategory.m"; sourceTree = "<group>"; };
-		2EF46E09215F4FAA00A9B5E0 /* Target_ProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ProductDetailViewController.h; sourceTree = "<group>"; };
-		2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ProductDetailViewController.m; sourceTree = "<group>"; };
+		2EF46E09215F4FAA00A9B5E0 /* Target_ProductDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ProductDetail.h; sourceTree = "<group>"; };
+		2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ProductDetail.m; sourceTree = "<group>"; };
 		2EF46E0C215F4FBD00A9B5E0 /* CTMediator+Detail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Detail.h"; sourceTree = "<group>"; };
 		2EF46E0D215F4FBD00A9B5E0 /* CTMediator+Detail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Detail.m"; sourceTree = "<group>"; };
 		2EF46E0F215F515000A9B5E0 /* CTMediator+Next.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Next.h"; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 			children = (
 				2EF46DEF215F497400A9B5E0 /* ProductDetailViewController.h */,
 				2EF46DF1215F497400A9B5E0 /* ProductDetailViewController.m */,
-				2EF46E09215F4FAA00A9B5E0 /* Target_ProductDetailViewController.h */,
-				2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetailViewController.m */,
+				2EF46E09215F4FAA00A9B5E0 /* Target_ProductDetail.h */,
+				2EF46E0A215F4FAA00A9B5E0 /* Target_ProductDetail.m */,
 				2EF46E0C215F4FBD00A9B5E0 /* CTMediator+Detail.h */,
 				2EF46E0D215F4FBD00A9B5E0 /* CTMediator+Detail.m */,
 				2EF46DF0215F497400A9B5E0 /* ZDHomeViewController.h */,
@@ -377,7 +377,7 @@
 				2EF46E02215F4AF800A9B5E0 /* Target_ZDHomeViewController.m in Sources */,
 				2EF46DFB215F497400A9B5E0 /* CategoryViewController.m in Sources */,
 				2EF46DF8215F497400A9B5E0 /* ProductDetailViewController.m in Sources */,
-				2EF46E0B215F4FAA00A9B5E0 /* Target_ProductDetailViewController.m in Sources */,
+				2EF46E0B215F4FAA00A9B5E0 /* Target_ProductDetail.m in Sources */,
 				2EF46DF9215F497400A9B5E0 /* ZDHomeViewController.m in Sources */,
 				2EF46E05215F4C3100A9B5E0 /* CTMediator+ZDCategory.m in Sources */,
 				2EF46E11215F515000A9B5E0 /* CTMediator+Next.m in Sources */,

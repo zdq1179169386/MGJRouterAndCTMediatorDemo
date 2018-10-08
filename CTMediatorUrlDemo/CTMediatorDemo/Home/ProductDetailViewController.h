@@ -11,5 +11,6 @@
 @interface ProductDetailViewController : UIViewController
 
 @property (nonatomic, strong) NSString * name;
+@property (nonatomic, strong) NSString * Id;
 
 @end
